@@ -1,12 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 
-body{
-    background-color: #e2e2e2;
+body,html {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  width: 100%;
+  height:100%;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
 }
 
 .header{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     font-family: 'Style Script', cursive;
 }
 
@@ -16,6 +32,18 @@ body{
     box-shadow: 
     8px 8px 10px 0 rgba(0, 0, 0, 0.25),
     -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+.btn0{
+    background-color: Transparent;
+    width: 150px;
+    height: 80px;
+    margin-top: 30px;
+    border: 0;
+}
+
+.btn0 :hover{
+  
 }
 
 .header h1{
@@ -29,12 +57,24 @@ body{
     margin-top: 30px;
 }
 
+.logo{
+  text-align: center;
+}
+
 .content {
     position: absolute;
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -15%);
+}
+
+.content p{
+  font-size: 20px;
+}
+
+.content h1{
+  font-size: 30px;
 }
 
 .footer {
@@ -66,7 +106,7 @@ body{
   top:50%;
   left:50%;
   transform:translate(-50%,-50%) scale(0);
-  background:#fff;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e);
   width:95%;
   max-width:500px;
   height:250px;
@@ -74,6 +114,7 @@ body{
   text-align:center;
   padding:20px;
   box-sizing:border-box;
+  border-radius: 20px;
   font-family:"Open Sans",sans-serif;
 }
  

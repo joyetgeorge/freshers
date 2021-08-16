@@ -63,9 +63,17 @@ function togglePopup16(){
 }
 
 function togglePopup17(){
-    document.getElementById("popup-16").classList.toggle("active");
+    document.getElementById("popup-17").classList.toggle("active");
 }
 
 function togglePopup18(){
-    document.getElementById("popup-16").classList.toggle("active");
+    document.getElementById("popup-18").classList.toggle("active");
+}
+
+function togglePopup19(){
+    document.getElementById("popup-19").classList.toggle("active");
+}
+
+function togglePopup20(){
+    document.getElementById("popup-20").classList.toggle("active");
 }
