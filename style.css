@@ -42,9 +42,6 @@ body,html {
     border: 0;
 }
 
-.btn0 :hover{
-  
-}
 
 .header h1{
     font-size: 70px;
@@ -70,10 +67,12 @@ body,html {
 }
 
 .content p{
+  color: #fff;
   font-size: 20px;
 }
 
 .content h1{
+  color: #fff;
   font-size: 30px;
 }
 
