@@ -107,7 +107,7 @@ body,html {
   top:50%;
   left:50%;
   transform:translate(-50%,-50%) scale(0);
-  background: linear-gradient(-45deg, #ee7752, #e73c7e);
+  background: linear-gradient(-45deg, #ff0000, #ff5c00, #ffcd00, #ffe300);
   width:95%;
   max-width:500px;
   height:250px;
