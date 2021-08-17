@@ -45,6 +45,7 @@ body,html {
 
 .header h1{
     font-size: 70px;
+    color: #fff;
 }
 
 .btn-warning{
@@ -87,6 +88,7 @@ body,html {
 
 .footer h1{
     font-size: 20px;
+    color: #fff;
 }
 
 .popup .overlay {
